@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quotaions</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon_io\favicon-16x16.png" type="image/x-icon">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+        *,
+        *:before,
+        *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 8px 0;
+            font-family: "Roboto", Arial, Helvetica, sans-serif;
+            overflow: auto;
+            background: linear-gradient(315deg, rgba(101,0,94,1) 3%,
+                                                rgba(60,132,206,1) 38%,
+                                                rgba(48,238,226,1) 68%,
+                                                rgba(255,25,25,1) 98%);
+            animation: gradient 75s ease infinite;
+            background-size: 200% 200%;
+            background-attachment: fixed;
+            overflow: auto;
+            background-image: url(bg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .wrapper {
+            position: relative;
+        }
+
+        .container {
+            display: inline-block;
+            width: 85%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .ponder {
+            width: 180px;
+            height: 100vh;
+            border-style: solid;
+            position: fixed;
+            margin: 0 0;
+            padding: 0 0;
+            backdrop-filter: blur(10px);
+            background: transparent;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(225, 225, 225, 0.5);
+            border-radius: 2%;
+        }
+
+        .ponder h1 {
+            color: rgb(18, 141, 150);
+            text-align: center;
+            margin: 20px 0;
+            transform: rotate(270deg);
+            position: absolute;
+            top: 50%;
+            left: -190px;
+            bottom: 50%;
+            white-space: nowrap;
+            font-size: 60px;
+        }
+
+        .quote-cont {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            grid-auto-rows: 300px;
+            grid-auto-columns: 300px;
+            margin-left: 200px;
+        }
+
+        .quote {
+            overflow: auto;
+            text-align: center;
+            padding: 20px;
+            background: transparent;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(225, 225, 225, 0.5);
+            border-radius: 8px;
+            backdrop-filter: blur(4px);
+        }
+
+        .quote p q {
+            line-height: 33px;
+            font-size: 20px;
+            font-style: italic;
+            color: rgb(255, 255, 255);
+        }
+
+        .quote p q span {
+            font-size: 50px;
+            font-style: italic;
+            font-family: cursive;
+            color: rgb(18, 141, 150);
+        }
+
+        .quote p span {
+            font-weight: bold;
+            font-size: 23px;
+            color: rgb(208, 208, 208);
+        }
+
+        .quote p span:hover {
+            color:rgb(18, 141, 150);
+            cursor: default;
+        }
+
+        .fa {
+            width: 50px;
+            color: white;
+        }
+
+        .fa:hover {
+            color:rgb(18, 141, 150);
+        }
+
+        .w3-xxlarge {
+            display: inline-block;
+            position: fixed;
+            bottom: 10px;
+            z-index: 1;
+            margin-left: 37px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="w3-xxlarge">
+                <a href="quotations.html">
+                    <i class="fa fa-home" title="Home">
+                    </i>
+                </a> 
+            </div>
+            <div class="ponder">
+                <h1>Points to Ponder</h1>
+            </div>
+
+            <div class="quote-cont">
+                <div class="quote">
+                    <p><q><span>I</span> can do all things through Christ which strengtheneth me.</q></p>
+                    <p><span>Philippians 4:13</span></p>
+                </div>
+        
+                <div class="quote">
+                    <p><q><span>G</span>od didn'tgive us a spirit that is timid but one that is powerful, loving, and self-controlled.</q></p>
+                    <p><span>2 Timothy 1:7</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>W</span>ho among you by worrying can add a single moment to your life.</q></p>
+                    <p><span>Matthew 6:27</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>D</span>on't be afraid, little flock, because your Father delights in giving you the kingdom.</q></p>
+                    <p><span>Luke 12:32</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>N</span>o one has greater love than to give up one's life for one's friends.</q></p>
+                    <p><span>John 15:13</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>T</span>he happy man is the one with a healthy body, a wealthy soul and a well-educated nature.</q></p>
+                    <p><span>Thales</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>R</span>oot of honesty and virtue lies in good education.</q></p>
+                    <p><span>Plutarch</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>T</span>here is nothing more divine than education. It is only through education that one truly becomes man.</q></p>
+                    <p><span>Plato</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>T</span>he root of education is bitter, the fruit is sweet.</q></p>
+                    <p><span>Isocrates</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>E</span>ducating the mind without educating the heart is no education at all.</q></p>
+                    <p><span>Aristotle</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>I</span> hate perfection. To be perfect is to be unable to improve any further.</q></p>
+                    <p><span>Kurotsuchi Mayuri (Bleach)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>I</span>f you don't like the hand that fate's dealt you with, fight for a new one.</q></p>
+                    <p><span>Naruto Uzumaki (Naruto)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>Y</span>ou've got two legs and a heartbeat. What's stopping you?</q></p>
+                    <p><span>Inuyasha (Inuyasha)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>I</span>f you don't take risks, you can't create a future.</q></p>
+                    <p><span>Monkey D. Luffy (One Piece)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>A</span> person grows up when he's able to overcome hardships. Protection is important, but ther are some things that a person must learn on his own.</q></p>
+                    <p><span>Jiraya (Naruto)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>D</span>estiny. Fate. Dreams. These unstoppable ideas re held deep in the heart of man. As long as there are people who seek freedom in this life, these things shall not vanish from the Earth.</q></p>
+                    <p><span>Gol D. Roger (One Piece)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>W</span>e have to live a life of no regrets.</q></p>
+                    <p><span>Portgas D. Ace (One PIece)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>Y</span>ou need to accept the fact that you're not the best and have all the will to strive to be better than anyone you face.</q></p>
+                    <p><span>Roronoa Zoro (One Piece)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>N</span>o matter how hard or impossible it is, never lose sight of your goal.</q></p>
+                    <p><span>Monkey D. Luffy (One Piece)</span></p>
+                </div>
+            
+                <div class="quote">
+                    <p><q><span>I</span>nstead of being terrified of failing, be afraid of giving up.</q></p>
+                    <p><span>Michael D. Tiempo</span></p>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
