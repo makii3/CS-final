@@ -65,3 +65,13 @@ textarea {
     background: #ececec;
     box-shadow: inset 10px 10px 15px #c7c4c4, inset -10px -10px 15px #fff;
 }
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none;
+}
