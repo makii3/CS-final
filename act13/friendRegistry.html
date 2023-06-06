@@ -9,7 +9,11 @@
   <link rel="shortcut icon" href="favicon_io\favicon-16x16.png" type="image/x-icon">
   <script>
     function returnToForm() {
+      document.getElementById('message').style.display = 'block';
+
       setTimeout(function() {
+        document.getElementById('message').style.display = 'none';
+
         window.location.href = "friendRegistry.html";
       }, 3000);
     }
@@ -31,9 +35,9 @@
 
       <textarea name="textarea" id="textarea" rows="5" placeholder="Enter your lovely message" required></textarea>
 
-      <button type="submit">Register</button>
+      <button type="submit" onclick="returnToForm()">Register</button>
     </form>
-    <div class="message">
+    <div id="message" class="message">
       <p>Thank you for registering!</p>
     </div>
   </div>
