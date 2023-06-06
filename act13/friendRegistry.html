@@ -9,11 +9,7 @@
   <link rel="shortcut icon" href="favicon_io\favicon-16x16.png" type="image/x-icon">
   <script>
     function returnToForm() {
-      document.getElementById('message').style.display = 'block';
-
       setTimeout(function() {
-        document.getElementById('message').style.display = 'none';
-
         window.location.href = "friendRegistry.html";
       }, 3000);
     }
@@ -37,7 +33,7 @@
 
       <button type="submit">Register</button>
     </form>
-    <div id="message" class="message">
+    <div class="message">
       <p>Thank you for registering!</p>
     </div>
   </div>
