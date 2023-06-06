@@ -7,8 +7,21 @@
   <link rel="stylesheet" href="homestyle.css">
   <title>Homepage</title>
   <link rel="shortcut icon" href="favicon_io/favicon-16x16.png" type="image/x-icon">
+  <script>
+    window.addEventListener("load", () => {
+      const loader = document.querySelector(".loader");
+
+      loader.classList.add("loader--hidden");
+
+      loader.addEventListener("transitionend", () => {
+        document.body.removeChild(loader);
+      });
+    });
+  </script>
 </head>
 <body>
+  <div class="loader"></div>
+
   <div id="header">
     <div class="container">
         <nav>
@@ -27,7 +40,7 @@
     </div>
 </div>
   <div id="content">
-    <h1>My Projects</h1>
+    <h1>My Works</h1>
     <div class="wrapper">
       <div class="grid-work">
         <div class="div-image">
@@ -45,7 +58,7 @@
         <div class="div-image">
           <a href="act3/aboutme.html" target="_blank"><img src="images-2/3.jpg" alt=""></a>
         </div>
-        <p>About Me</p>
+        <p>Colors</p>
       </div>
       <div class="grid-work">
         <div class="div-image">
